@@ -13,6 +13,10 @@ import java.util.List;
 import java.util.Optional;
 
 public class Main {
+
+    // Integrantes:
+    // Arthur Mascaro e Gustavo Trizotti
+
     public static void main(String[] args) {
         EntityManager entityManager = JPAUtil.getEntityManager();
         AlunoDAO alunoDAO = new AlunoDAO(entityManager);
